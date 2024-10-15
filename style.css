@@ -1,8 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400,500,700;1,200..800&display=swap");
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Karla;
 }
 
 body {
-    font-family: "Karla", sans-serif;
-    margin: 0;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 29px 20px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+}
+
+.header h2 {
+  margin-right: auto;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.header h4 {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.header--logo {
+  width: 31.31px;
+  height: 26.22px;
+  margin-right: 12px;
 }
